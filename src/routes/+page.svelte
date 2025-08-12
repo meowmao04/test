@@ -5,7 +5,7 @@
 	// --- Game Constants ---
 	const COLS = 10;
 	const ROWS = 20;
-	const BLOCK_SIZE = 30; // In pixels
+	const BLOCK_SIZE = 40; // In pixels
 
 	// --- Tetromino Shapes and Colors ---
 	const TETROMINOES = {
