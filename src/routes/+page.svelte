@@ -82,6 +82,7 @@
 		currentPiece.shape.forEach((row, y) => {
 			row.forEach((value, x) => {
 				if (value !== 0) {
+					const boardX = currentPosition.x + x; // FIX: boardX was not defined
 					const boardY = currentPosition.y + y;
 					if (boardY >= 0) {
 						board[boardY][boardX] = { value: 1, color: currentPiece.color };
